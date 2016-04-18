@@ -12,7 +12,7 @@ curve = EllipticCurve(GF(p),[32934893483948394,593439483948394349])
 # should be in the form
 # e x1 lowest_x2 lowest_y2 
 #
-path = '/home/landondare/EllipticCurve/data.txt'
+path = '/home/landondare/EllipticCurveProject/data.txt'
 lines = open(path).read().splitlines()
 inputValues = lines[len(lines) -1].split(' ')
 
