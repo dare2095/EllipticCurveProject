@@ -11,7 +11,7 @@ idNumber = 12932095
 
 # Read in file for variables
 # read from the top
-path = '/Users/LandonDare/Desktop/EllipticCurveProject/data.txt'
+path = '/home/landondare/EllipticCurveProject/data.txt'
 lines = open(path).read().splitlines()
 inputValues = lines[0].split(' ')
 
